@@ -1,4 +1,5 @@
 global using BlazorECommerceWebsiteCourse.Shared; //global usings has to be declared before normal usings
+global using BlazorECommerceWebsiteCourse.Server.Services.ProductService;
 using BlazorECommerceWebsiteCourse.Server.Data;
 using Microsoft.AspNetCore.ResponseCompression;
 using Microsoft.EntityFrameworkCore;
@@ -14,6 +15,8 @@ builder.Services.AddRazorPages();
 
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+builder.Services.AddScoped<IProductService, ProductService>();
 
 var app = builder.Build();
 

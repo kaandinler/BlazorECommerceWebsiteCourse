@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32819.101
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorECommerceWebsiteCourse.Server", "BlazorECommerceWebsiteCourse\Server\BlazorECommerceWebsiteCourse.Server.csproj", "{DCD28109-EF56-4882-A0CF-FC8CA27CA288}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorECommerceWebsiteCourse.Server", "BlazorECommerceWebsiteCourse\Server\BlazorECommerceWebsiteCourse.Server.csproj", "{DCD28109-EF56-4882-A0CF-FC8CA27CA288}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorECommerceWebsiteCourse.Client", "BlazorECommerceWebsiteCourse\Client\BlazorECommerceWebsiteCourse.Client.csproj", "{2920BE08-C08E-4583-BE9A-E1B8EB6F4936}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorECommerceWebsiteCourse.Client", "BlazorECommerceWebsiteCourse\Client\BlazorECommerceWebsiteCourse.Client.csproj", "{2920BE08-C08E-4583-BE9A-E1B8EB6F4936}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorECommerceWebsiteCourse.Shared", "BlazorECommerceWebsiteCourse\Shared\BlazorECommerceWebsiteCourse.Shared.csproj", "{B908EEA7-6DF6-4F2E-AE48-6B503B4A88C4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorECommerceWebsiteCourse.Shared", "BlazorECommerceWebsiteCourse\Shared\BlazorECommerceWebsiteCourse.Shared.csproj", "{B908EEA7-6DF6-4F2E-AE48-6B503B4A88C4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
