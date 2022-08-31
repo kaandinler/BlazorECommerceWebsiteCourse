@@ -31,3 +31,7 @@
 .price{
     color:green;
 }
+
+.original-price{
+    text-decoration: line-through;
+}
